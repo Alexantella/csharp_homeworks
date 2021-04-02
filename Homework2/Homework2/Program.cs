@@ -9,6 +9,8 @@ namespace Homework2
         {
             ReadLiner runner = new ReadLiner();
             runner.Run();
+
+            Console.ReadLine();
         }
     }
 }

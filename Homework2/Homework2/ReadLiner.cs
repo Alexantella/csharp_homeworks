@@ -11,6 +11,8 @@ namespace Homework2
 
         private double avgTemp;
 
+        private bool checkWasShown = false;
+
         [Flags]
         private enum WeekDays : uint
         {
@@ -24,12 +26,10 @@ namespace Homework2
             Sunday = 0b_01000000,
         }
 
-        WeekDays enumDayOfWeek;
+        WeekDays enumDayOfWeek = WeekDays.None;
 
         public void Run()
         {
-            this.PrintRandomCheck();
-
             if (this.avgTemp == 0)
             {
                 this.AverageTemp();
@@ -37,23 +37,31 @@ namespace Homework2
 
             if (this.intMonth == 0)
             {
+                Console.WriteLine("=========================");
                 this.MonthNumber();
             }
 
             if (this.realNum == 0)
             {
+                Console.WriteLine("=========================");
                 this.realNumber();
             }
 
-            if (this.enumDayOfWeek == 0)
+            if (this.enumDayOfWeek == WeekDays.None)
             {
+                Console.WriteLine("=========================");
                 this.ByteMasks();
             }
 
-            Console.ReadLine();
+            if(checkWasShown == false)
+            {
+                this.checkWasShown = true;
+                Console.WriteLine("=========================");
+                this.PrintRandomCheck();
+            }
         }
 
-        private void AverageTemp()
+        private bool AverageTemp()
         {
             Console.WriteLine("Введи минимальную температуру!");
             string min = Console.ReadLine();
@@ -65,6 +73,8 @@ namespace Homework2
             {
                 Console.WriteLine("Какое-то число вовсе не число, попробуй еще раз!");
                 this.Run();
+
+                return false;
             }
             else
             {
@@ -75,14 +85,18 @@ namespace Homework2
                 {
                     Console.WriteLine("Я для тебя какая-то шутка?");
                     this.Run();
+
+                    return false;
                 }
 
                 this.avgTemp = (Convert.ToInt32(min) + Convert.ToInt32(max)) / 2;
                 Console.WriteLine($"Средняя температура по больнице - {this.avgTemp}");
             }
+
+            return true;
         }
 
-        private void MonthNumber()
+        private bool MonthNumber()
         {
             Console.WriteLine("Введи номер месяца");
             string month = Console.ReadLine();
@@ -91,6 +105,8 @@ namespace Homework2
             {
                 Console.WriteLine("Какое-то число вовсе не число, попробуй еще раз!");
                 this.Run();
+
+                return false;
             }
 
             this.intMonth = Convert.ToInt32(month);
@@ -101,6 +117,8 @@ namespace Homework2
                 this.intMonth = 0;
 
                 this.Run();
+
+                return false;
             }
 
             DateTime newDate = new DateTime(DateTime.Now.Year, this.intMonth, 1);
@@ -113,9 +131,11 @@ namespace Homework2
             {
                 Console.WriteLine("Типичная Московская зима, чо!");
             }
+
+            return true;
         }
 
-        private void realNumber()
+        private bool realNumber()
         {
             Console.WriteLine("Введи число");
             string number = Console.ReadLine();
@@ -124,6 +144,8 @@ namespace Homework2
             {
                 Console.WriteLine("Какое-то число вовсе не число, попробуй еще раз!");
                 this.Run();
+
+                return false;
             }
 
             this.realNum = Convert.ToInt32(number);
@@ -136,6 +158,8 @@ namespace Homework2
             {
                 Console.WriteLine("Число четное!");
             }
+
+            return true;
         }
 
         private bool IsIntValid(string value)
@@ -143,7 +167,7 @@ namespace Homework2
             return Int32.TryParse(value, out int number);
         }
 
-        private void ByteMasks()
+        private bool ByteMasks()
         {
             WeekDays firstOffice = WeekDays.Tuesday |
                 WeekDays.Wednesday |
@@ -167,6 +191,8 @@ namespace Homework2
             {
                 Console.WriteLine("Какое-то число вовсе не число, попробуй еще раз!");
                 this.Run();
+
+                return false;
             }
 
             int intOfficeDate = Convert.ToInt32(officeDate);
@@ -177,10 +203,12 @@ namespace Homework2
             Calendar myCal = CultureInfo.InvariantCulture.Calendar;
             int daysInMonth = myCal.GetDaysInMonth(nowYear, nowMonth);
 
-            if (intOfficeDate < 1 && daysInMonth < intOfficeDate)
+            if (intOfficeDate < 1 || daysInMonth < intOfficeDate)
             {
                 Console.WriteLine("Совсем дурашка? Попробуй еще раз!");
                 this.Run();
+
+                return false;
             }
 
             /*
@@ -202,6 +230,8 @@ namespace Homework2
 
             Console.WriteLine("Первый офис {0}", firstOfficeEnable);
             Console.WriteLine("Второй офис {0}", secondOfficeEnable);
+
+            return true;
         }
 
         private void PrintRandomCheck()
