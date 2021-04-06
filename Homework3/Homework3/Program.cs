@@ -6,7 +6,6 @@ namespace Homework3
     {
         static void Main(string[] args)
         {
-            /*Console.WriteLine("Hello World!");
             DiagonalArray();
             Console.WriteLine("===========================");
             PhoneArray();
@@ -14,7 +13,7 @@ namespace Homework3
             SymbolArray();
             Console.WriteLine("===========================");
             SeaBattleArray();
-            Console.WriteLine("===========================");*/
+            Console.WriteLine("===========================");
             MovingArray();
             Console.ReadLine();
         }
