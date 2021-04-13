@@ -1,0 +1,15 @@
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.csprojAssemblyReference.cache
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.AssemblyInfoInputs.cache
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.AssemblyInfo.cs
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.csproj.CoreCompileInputs.cache
+C:\Users\Q\source\repos\Homework5\Homework5\bin\Debug\netcoreapp3.1\Homework5.exe
+C:\Users\Q\source\repos\Homework5\Homework5\bin\Debug\netcoreapp3.1\Homework5.deps.json
+C:\Users\Q\source\repos\Homework5\Homework5\bin\Debug\netcoreapp3.1\Homework5.runtimeconfig.json
+C:\Users\Q\source\repos\Homework5\Homework5\bin\Debug\netcoreapp3.1\Homework5.runtimeconfig.dev.json
+C:\Users\Q\source\repos\Homework5\Homework5\bin\Debug\netcoreapp3.1\Homework5.dll
+C:\Users\Q\source\repos\Homework5\Homework5\bin\Debug\netcoreapp3.1\Homework5.pdb
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.dll
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.pdb
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.genruntimeconfig.cache
+C:\Users\Q\source\repos\Homework5\Homework5\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Q\source\repos\Homework5\Homework5\obj\Debug\netcoreapp3.1\Homework5.csproj.CopyComplete

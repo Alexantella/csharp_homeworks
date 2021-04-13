@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ihjc5S/PPMJBhvmapPySfTG5xWbmgPZJTSUonG19eEWtNmkeYFy+cnv5gMMyauKbiaHWeQJ41ixUBEn9mTqLVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Q\\source\\repos\\Homework5\\Homework5\\Homework5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Q\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
