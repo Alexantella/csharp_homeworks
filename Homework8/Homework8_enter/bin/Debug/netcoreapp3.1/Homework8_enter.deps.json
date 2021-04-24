@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Homework8_enter/1.0.0": {
+        "dependencies": {
+          "Homework8": "1.0.0"
+        },
+        "runtime": {
+          "Homework8_enter.dll": {}
+        }
+      },
+      "Homework8/1.0.0": {
+        "runtime": {
+          "Homework8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Homework8_enter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Homework8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
