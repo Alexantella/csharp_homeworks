@@ -1,0 +1,16 @@
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8_enter.exe
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8.dll
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8.pdb
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.csprojAssemblyReference.cache
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.AssemblyInfoInputs.cache
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.AssemblyInfo.cs
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.csproj.CoreCompileInputs.cache
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.csproj.CopyComplete
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.dll
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.pdb
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8_enter.deps.json
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8_enter.runtimeconfig.json
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8_enter.runtimeconfig.dev.json
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8_enter.dll
+C:\Users\Q\source\repos\Homework8\Homework8_enter\bin\Debug\netcoreapp3.1\Homework8_enter.pdb
+C:\Users\Q\source\repos\Homework8\Homework8_enter\obj\Debug\netcoreapp3.1\Homework8_enter.genruntimeconfig.cache
