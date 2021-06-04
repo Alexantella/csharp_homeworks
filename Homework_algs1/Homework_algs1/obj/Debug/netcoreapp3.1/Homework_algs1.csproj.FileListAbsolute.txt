@@ -1,0 +1,13 @@
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\bin\Debug\netcoreapp3.1\Homework_algs1.exe
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\bin\Debug\netcoreapp3.1\Homework_algs1.deps.json
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\bin\Debug\netcoreapp3.1\Homework_algs1.runtimeconfig.json
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\bin\Debug\netcoreapp3.1\Homework_algs1.runtimeconfig.dev.json
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\bin\Debug\netcoreapp3.1\Homework_algs1.dll
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\bin\Debug\netcoreapp3.1\Homework_algs1.pdb
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\obj\Debug\netcoreapp3.1\Homework_algs1.csprojAssemblyReference.cache
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\obj\Debug\netcoreapp3.1\Homework_algs1.AssemblyInfoInputs.cache
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\obj\Debug\netcoreapp3.1\Homework_algs1.AssemblyInfo.cs
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\obj\Debug\netcoreapp3.1\Homework_algs1.csproj.CoreCompileInputs.cache
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\obj\Debug\netcoreapp3.1\Homework_algs1.dll
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\obj\Debug\netcoreapp3.1\Homework_algs1.pdb
+C:\Users\Q\source\repos\Homework_algs1\Homework_algs1\obj\Debug\netcoreapp3.1\Homework_algs1.genruntimeconfig.cache
