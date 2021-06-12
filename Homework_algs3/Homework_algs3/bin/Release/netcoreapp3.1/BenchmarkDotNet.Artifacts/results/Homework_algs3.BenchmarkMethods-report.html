@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Homework_algs3.BenchmarkMethods-20210612-034543</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.0, OS=Windows 10.0.19041.985 (2004/May2020Update/20H1)
+Intel Celeron CPU N3350 1.10GHz, 1 CPU, 2 logical and 2 physical cores
+.NET SDK=5.0.201
+  [Host]     : .NET Core 3.1.13 (CoreCLR 4.700.21.11102, CoreFX 4.700.21.11602), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET Core 3.1.13 (CoreCLR 4.700.21.11102, CoreFX 4.700.21.11602), X64 RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>                               Method</th><th>Mean</th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>DistanceWithPointClassFloatTest</td><td>31.04 ns</td><td>0.604 ns</td><td>0.565 ns</td>
+</tr><tr><td>DistanceWithPointStructDoubleTest</td><td>36.20 ns</td><td>0.507 ns</td><td>0.423 ns</td>
+</tr><tr><td>DistanceWithPointStructFloatTest</td><td>32.26 ns</td><td>0.703 ns</td><td>0.691 ns</td>
+</tr><tr><td>DistanceWithPointStructFloatWithoutSqrtTest</td><td>34.71 ns</td><td>0.327 ns</td><td>0.363 ns</td>
+</tr></tbody></table>
+</body>
+</html>
