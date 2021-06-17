@@ -26,8 +26,10 @@ namespace Homework_algs4
 
             //Node for test searching
             binaryTree.Add(11);
+            binaryTree.Add(47);
+            binaryTree.Add(74);
 
-            Console.WriteLine("Это дерево");
+            Console.WriteLine("Это дерево до удалений");
             binaryTree.PrintTreeAsTree();
 
             BinaryTreeNode findNode = binaryTree.FindNode(11);
@@ -36,6 +38,12 @@ namespace Homework_algs4
                 : "Нода не найдена";
 
             Console.WriteLine(print);
+
+            binaryTree.Delete(47);
+            binaryTree.Delete(74);
+            Console.WriteLine("Это дерево после удалений");
+            binaryTree.PrintTreeAsTree();
+
             Console.ReadLine();
         }
     }

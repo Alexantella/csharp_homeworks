@@ -110,6 +110,84 @@ namespace Homework_algs4
             return currentNode;
         }
 
+        public void Delete(int target)
+        {
+            this.RootNode = this.Delete(this.RootNode, target);
+        }
+
+        private BinaryTreeNode Delete(BinaryTreeNode currentNode, int target)
+        {
+            BinaryTreeNode parent;
+
+            if (currentNode == null)
+            {
+                return null;
+            }
+            else
+            {
+                if(target < currentNode.Data)
+                {
+                    currentNode.LeftNode = this.Delete(currentNode.LeftNode, target);
+
+                    if(this.CheckBalance(currentNode) == -2)
+                    {
+                        if(this.CheckBalance(currentNode.RightNode) <= 0)
+                        {
+                            currentNode = this.RightRightRotation(currentNode);
+                        } else
+                        {
+                            currentNode = this.RightLeftRotation(currentNode);
+                        }
+                    }
+                } else if (target > currentNode.Data)
+                {
+                    currentNode.RightNode = this.Delete(currentNode.RightNode, target);
+
+                    if (this.CheckBalance(currentNode) == 2)
+                    {
+                        if (this.CheckBalance(currentNode.LeftNode) >= 0)
+                        {
+                            currentNode = this.LeftLeftRotation(currentNode);
+                        }
+                        else
+                        {
+                            currentNode = this.LeftRightRotation(currentNode);
+                        }
+                    }
+                } else
+                {
+                    if(currentNode.RightNode != null)
+                    {
+                        parent = currentNode.RightNode;
+
+                        while(parent.LeftNode != null)
+                        {
+                            parent = parent.LeftNode;
+                        }
+
+                        currentNode.Data = parent.Data;
+                        currentNode.RightNode = this.Delete(currentNode.RightNode, parent.Data);
+
+                        if(this.CheckBalance(currentNode) == 2)
+                        {
+                            if(this.CheckBalance(currentNode.LeftNode) >= 0)
+                            {
+                                currentNode = LeftLeftRotation(currentNode);
+                            } else
+                            {
+                                currentNode = LeftRightRotation(currentNode);
+                            }
+                        }
+                    } else
+                    {
+                        return currentNode.LeftNode;
+                    }
+                }
+            }
+
+            return currentNode;
+        }
+
         /*
          * Blances subtrees and makes our structure perfect... technically.
          */
