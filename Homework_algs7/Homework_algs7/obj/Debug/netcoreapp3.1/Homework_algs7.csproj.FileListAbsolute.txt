@@ -1,0 +1,13 @@
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\obj\Debug\netcoreapp3.1\Homework_algs7.csprojAssemblyReference.cache
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\obj\Debug\netcoreapp3.1\Homework_algs7.AssemblyInfoInputs.cache
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\obj\Debug\netcoreapp3.1\Homework_algs7.AssemblyInfo.cs
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\obj\Debug\netcoreapp3.1\Homework_algs7.csproj.CoreCompileInputs.cache
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\bin\Debug\netcoreapp3.1\Homework_algs7.exe
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\bin\Debug\netcoreapp3.1\Homework_algs7.deps.json
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\bin\Debug\netcoreapp3.1\Homework_algs7.runtimeconfig.json
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\bin\Debug\netcoreapp3.1\Homework_algs7.runtimeconfig.dev.json
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\bin\Debug\netcoreapp3.1\Homework_algs7.dll
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\bin\Debug\netcoreapp3.1\Homework_algs7.pdb
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\obj\Debug\netcoreapp3.1\Homework_algs7.dll
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\obj\Debug\netcoreapp3.1\Homework_algs7.pdb
+C:\Users\Q\source\repos\Homework_algs7\Homework_algs7\obj\Debug\netcoreapp3.1\Homework_algs7.genruntimeconfig.cache
